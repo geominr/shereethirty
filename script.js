@@ -1,6 +1,5 @@
 
 const DATA_URL = 'site-data.json';
-const STORAGE_KEY = 'lamuBirthdaySiteData';
 const AUTH_KEY = 'lamuBirthdaySiteUnlocked';
 
 const escapeHTML = (value = '') => String(value)
@@ -15,30 +14,10 @@ function paragraphsHTML(value) {
   return paragraphs.map(paragraph => `<p>${escapeHTML(paragraph)}</p>`).join('');
 }
 
-function mergeSiteData(base, overlay) {
-  if (Array.isArray(overlay)) return overlay;
-  if (overlay && typeof overlay === 'object' && base && typeof base === 'object' && !Array.isArray(base)) {
-    const merged = { ...base };
-    for (const [key, value] of Object.entries(overlay)) {
-      merged[key] = mergeSiteData(base[key], value);
-    }
-    return merged;
-  }
-  return overlay === undefined ? base : overlay;
-}
-
 async function loadSiteData() {
   const response = await fetch(DATA_URL, { cache: 'no-store' });
   if (!response.ok) throw new Error('Could not load site-data.json');
-  const bundled = await response.json();
-  const saved = localStorage.getItem(STORAGE_KEY);
-  if (!saved) return bundled;
-  try {
-    return mergeSiteData(bundled, JSON.parse(saved));
-  } catch (e) {
-    console.warn('Saved JSON is invalid; loading bundled data.', e);
-    return bundled;
-  }
+  return response.json();
 }
 
 function requirePassword(data, onUnlock) {
@@ -209,7 +188,6 @@ function renderSite(data) {
     </section>
     <section class="section rsvp" id="rsvp" aria-label="RSVP"><div class="rsvp-panel reveal"><div class="rsvp-choices">${rsvpChoices}</div></div></section>`;
 
-  window.__LAMU_SITE_DATA__ = data;
   setupInteractions();
 }
 
@@ -232,8 +210,6 @@ function setupInteractions() {
   setupHouseSlideshow();
 }
 
-if (!document.body.classList.contains('edit-page')) {
-  loadSiteData().then(data => requirePassword(data, () => renderSite(data))).catch(err => {
-    document.body.innerHTML = `<main class="editor-wrap"><h1>Could not load site data</h1><p>${escapeHTML(err.message)}</p><p>Open the site through a local server, or make sure <code>site-data.json</code> is next to <code>index.html</code>.</p></main>`;
-  });
-}
+loadSiteData().then(data => requirePassword(data, () => renderSite(data))).catch(err => {
+  document.body.innerHTML = `<main class="section"><h1>Could not load site data</h1><p>${escapeHTML(err.message)}</p></main>`;
+});
