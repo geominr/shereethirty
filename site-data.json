@@ -1,0 +1,281 @@
+{
+  "site": {
+    "title": "Thirty in Lamu | Jan 9–14, 2027",
+    "brand": "images/IMG_8378 1.png",
+    "brandIcon": "images/IMG_8378 1.png",
+    "password": "lamu30",
+    "passwordHint": "Hint: destination + age, lowercase, no space.",
+    "footerText": "Sheree's 30th birthday in Lamu · January 2027",
+    "editLinkLabel": "Edit site copy"
+  },
+  "nav": [
+    {
+      "label": "Welcome",
+      "href": "#welcome"
+    },
+    {
+      "label": "House",
+      "href": "#house"
+    },
+    {
+      "label": "Lamu",
+      "href": "#activities"
+    },
+    {
+      "label": "Flights",
+      "href": "#flights"
+    },
+    {
+      "label": "FAQ",
+      "href": "#faq"
+    },
+    {
+      "label": "RSVP",
+      "href": "#rsvp"
+    }
+  ],
+  "welcome": {
+    "eyebrow": "Sheree's 30th · Lamu Island, Kenya · January 9–14, 2027",
+    "headline": "Goodbye, twenties. Hello Lamu!",
+    "lede": "Join me for five slow days in my favourite place in Kenya! We'll enjoy Swahili architecture, dhow sails, late breakfasts, exploration and I can't wait to celebrate with you all!.",
+    "primaryCta": {
+      "label": "RSVP",
+      "href": "#rsvp"
+    },
+    "secondaryCta": {
+      "label": "See the house",
+      "href": "#house"
+    },
+    "heroImage": "images/b582b83f-92cb-498f-a83e-03a1de6d898c.jpeg",
+    "heroImageAlt": "Lamu-inspired coastal scene",
+    "dateCard": [
+      {
+        "label": "Arrive in Lamu",
+        "value": "Jan 9"
+      },
+      {
+        "label": "Depart Lamu",
+        "value": "Jan 14"
+      }
+    ]
+  },
+  "house": {
+    "kicker": "The stay",
+    "headline": "Forodhani House",
+    "body": [
+      "Stunningly located at the beginning of Shela Beach, 100 meters from the village and Peponi Hotel Terrace, we will enjoy stunning sea-views, dhows sailing right by the house, tiered terraces, lounging areas to take it easy, an airy and spacy main lounge, a garden and a pool.",
+      "It's the very spot where decades ago a watch-post stood (Forodhani means watch-post in Kiswahili) controlling the to and fro of boats entering and leaving Lamu Island.",
+      "Forodhani House comes with 5 professional, friendly staff, among them an excellent cook and we will have dinners mainly at this house. Once the house is full, the recommendation is to stay at Peponi Hotel, which is right next door, though airbnb options are also available in Shela. "
+    ],
+    "details": [
+      {
+        "label": "Bedrooms",
+        "value": "5 ensuite bedrooms"
+      },
+      {
+        "label": "Guest count",
+        "value": "Approx. 10–12 guests"
+      },
+      {
+        "label": "Setting",
+        "value": "Waterfront Lamu"
+      }
+    ],
+    "mapLink": {
+      "label": "Open in Google Maps",
+      "href": "https://maps.app.goo.gl/ixre2QJ5mVrWNLF88"
+    },
+    "images": [
+      "images/00383620-2dc4-4458-92ec-348ab29a2d20.jpeg",
+      "images/08a6fd21-1c99-417e-a86b-5c4cff2ada35.jpeg",
+      "images/0e815f18-81b4-4115-a6b0-aed5f3ff939d.jpeg",
+      "images/2f82d404-c10b-4b71-b430-16d36a9674cd.jpeg",
+      "images/5754f7a5-2202-4eeb-b91e-88ae7a2050cd.jpeg",
+      "images/57ea96d8-e408-403e-bbb0-17754ae1dd98.jpeg",
+      "images/5b5f56de-76c6-488f-a35c-43d7357e0e73.jpeg",
+      "images/68db2427-299c-4ee8-8cb6-300638a8cf0f.jpeg",
+      "images/6e08a843-3e5a-4831-9e24-4f6d93236870.jpeg",
+      "images/75d34bd5-489d-45fe-8f3a-d56ae7fd815d.jpeg",
+      "images/7b7c7baa-6409-471b-90df-b5b99eb37dff.jpeg",
+      "images/851046a7-7e7c-4ab6-814d-3ab59065ca93.jpeg",
+      "images/a1b1c9e8-35e7-41f0-928f-35edfaab180d.jpeg",
+      "images/ac0ccc5b-d61f-4687-92d4-9f1d8a391936.jpeg",
+      "images/b582b83f-92cb-498f-a83e-03a1de6d898c.jpeg",
+      "images/b967bb6f-d998-4282-900c-7fa67bb6eafc.jpeg",
+      "images/c0a5b5da-e201-43f6-9bc0-7e4c9008fcd6.jpeg",
+      "images/cabbe38e-7c8f-4ff0-8c39-7ea2b71413f8.jpeg",
+      "images/cef39c74-3d11-4b1d-ba56-07f132c5d3fa.jpeg",
+      "images/d99fbc89-5d7c-4238-ae3a-793a88d90dd2.jpeg",
+      "images/de6efc15-69bf-4782-af94-b63effd2a0b3.jpeg",
+      "images/e9efdd5c-fe86-488b-b97b-22dfddeec8d0.jpeg",
+      "images/ed1996cb-4e4c-4d84-8972-362145553a17.jpeg",
+      "images/f1735405-36d6-4134-a435-30b05cb588aa.jpeg",
+      "images/fae2c0b0-1ac4-4997-b163-5a0e2fb8d0ad.jpeg",
+      "images/fe703ddd-5b14-44c5-92cd-bdb647173e82.jpeg"
+    ],
+    "alternatives": {
+      "headline": "Alternatives",
+      "intro": "If you need a room beyond Forodhani House, these nearby Shela stays are the easiest backups.",
+      "places": [
+        {
+          "name": "Peponi Hotel",
+          "note": "Next door to Forodhani House",
+          "contacts": [
+            {
+              "label": "+254 722 203 082",
+              "href": "tel:+254722203082"
+            },
+            {
+              "label": "+254 742 744 149",
+              "href": "tel:+254742744149"
+            }
+          ]
+        },
+        {
+          "name": "Kijani Hotel",
+          "note": "Nearby Shela hotel",
+          "contacts": [
+            {
+              "label": "Book on WhatsApp",
+              "href": "https://api.whatsapp.com/send?phone=254725545264"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "activities": {
+    "kicker": "Island rhythm",
+    "headline": "Things we might do, lightly.",
+    "intro": "Lamu is best treated as a mood rather than a checklist: a UNESCO-listed old town, beach time in Shela, sunset sailing, markets, Swahili food, and a lot of doing very little beautifully.",
+    "cards": [
+      {
+        "category": "Dhow sailing",
+        "title": "Sunset Dhow Ride",
+        "text": "Set sail at golden-hour, enjoy snacks, sunset and each other's company.",
+        "image": "images/lamu-dhow.png",
+        "alt": "Ocean sailing placeholder"
+      },
+      {
+        "category": "Old Town",
+        "title": "Lamu Old Town Tour",
+        "text": "Explore the historic streets of Lamu Old Town, visit the market, and learn about the island's rich culture and history.",
+        "image": "images/lamu-old-town.webp",
+        "alt": "Historic architecture placeholder"
+      },
+      {
+        "category": "Shela Dunes",
+        "title": "Shela Dunes and Beach Day",
+        "text": "Explore the unique landscapes of the Shela Dunes and wander to the beach for a dip in the Indian Ocean.",
+        "image": "images/shela-dunes.png",
+        "alt": "Beach day placeholder"
+      },
+      {
+        "category": "Wellness",
+        "title": "Majlis Relaxation Day",
+        "text": "Afforable day passes available for relaxing by the pool, with full access to the bar and spa.",
+        "image": "images/the-majlis-resort.jpg",
+        "alt": "Spa and relaxation placeholder"
+      },
+      {
+        "category": "Food",
+        "title": "Swahili birthday dinner",
+        "text": "Coconut rice, grilled fish, spiced vegetables, and a birthday toast.",
+        "image": "images/dinner-pic.png",
+        "alt": "Dinner table placeholder"
+      },
+      {
+        "category": "More adventures",
+        "title": "Manda Toto Reef Snorkeling",
+        "text": "A half-day excursion by boat to the Manda Toto Reef for snorkeling around the coral reefs.",
+        "image": "images/manda-toto-reef.png",
+        "alt": "Boat transfer placeholder"
+      }
+    ]
+  },
+  "flights": {
+    "kicker": "Getting there",
+    "headline": "Nairobi ↔ Lamu on Jambojet",
+    "intro": [
+      "Fly into Manda Airport via Nairobi (JKIA), then take a boat transfer to Lamu (this will be organized for you by house / hotel staff)",
+      "I recommend that you arrive in Nairobi latest by the 8th of January evening to ensure we can leave the next morning for Lamu.",
+      "For departure dates, you can book your return flight on January 14th onwards (if it's in the evening as flights from Lamu leave in the morning or early afternoon).",
+      "A number of folks are planning to come to Kenya earlier than January 8th to explore Nairobi or other parts of Kenya, and I'm happy to connect people who would like to do this with others.",
+      "In addition, I'll be in Nairobi and can host and hang out! More details on Nairobi specific itineraries to come.",
+      "After our trip to Lamu, I'm hoping we can all spend the 15th in Nairobi, and do a safari at the Nairobi National Park. This is completely optional though and more info to come. "
+    ],
+    "note": "Fares move quickly. Open either leg to review and book the full round trip.",
+    "legs": [
+      {
+        "label": "Departing",
+        "href": "https://flights.jambojet.com/en/fares?combo=0-0&currency=USD&distributor=google&fares=a-128.80-EUR-5393&fee=2.58-EUR&home=LAUNBO202701141135012550120JM8681&issued_at=2026_07_26_15_14_43&mbs_partner=jambojet&out=NBOLAU202701090900010200120JM8684&passenger_ages=25&residency=US&ticketing-partner=google-flights&utm_source=google-flights.us&version=3&sig=NuOAjCalQXQGAekXz07G7GBDHmHgsUQEvN3DHfeU62c&gclid=ADowPOLFKcsOaoEThsTTdHOJp8fbbUsT0luIl-nKrFC4RyGXFwhaN9zajIFwiqHZDysJaGRdfsWpCotbEMO8KgrN81SQJdWkxlv-qqGTACfP-b0PTvDW&gclsrc=gf&offerId=C6GNAH6K&partner=jambojet",
+        "cta": "Book outbound",
+        "departTime": "09:00",
+        "departDate": "Sat, January 9",
+        "departAirport": "Nairobi (NBO)",
+        "duration": "1h 20m flight",
+        "flightNumber": "JM8684",
+        "arriveTime": "10:20",
+        "arriveDate": "Sat, January 9",
+        "arriveAirport": "Lamu (LAU)"
+      },
+      {
+        "label": "Returning",
+        "href": "https://flights.jambojet.com/en/fares?combo=0-0&currency=USD&distributor=google&fares=a-128.80-EUR-5393&fee=2.58-EUR&home=LAUNBO202701141135012550120JM8681&issued_at=2026_07_26_15_14_43&mbs_partner=jambojet&out=NBOLAU202701090900010200120JM8684&passenger_ages=25&residency=US&ticketing-partner=google-flights&utm_source=google-flights.us&version=3&sig=NuOAjCalQXQGAekXz07G7GBDHmHgsUQEvN3DHfeU62c&gclid=ADowPOLFKcsOaoEThsTTdHOJp8fbbUsT0luIl-nKrFC4RyGXFwhaN9zajIFwiqHZDysJaGRdfsWpCotbEMO8KgrN81SQJdWkxlv-qqGTACfP-b0PTvDW&gclsrc=gf&offerId=C6GNAH6K&partner=jambojet",
+        "cta": "Book return",
+        "departTime": "11:35",
+        "departDate": "Thu, January 14",
+        "departAirport": "Lamu (LAU)",
+        "duration": "1h 20m flight",
+        "flightNumber": "JM8681",
+        "arriveTime": "12:55",
+        "arriveDate": "Thu, January 14",
+        "arriveAirport": "Nairobi (NBO)"
+      }
+    ]
+  },
+  "rsvp": {
+    "backgroundImage": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=2200&q=80",
+    "href": "https://partiful.com/e/B3LqDyCAep8MVjURX4Gc?c=wU1dI4dH",
+    "choices": [
+      {
+        "image": "images/IMG_8378 1.png",
+        "caption": "See you there!"
+      },
+      {
+        "image": "images/IMG_8377 1.png",
+        "caption": "Can't make it"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "Good to know",
+    "headline": "FAQ",
+    "items": [
+      {
+        "question": "When should I arrive and leave?",
+        "answer": "Plan to be in Lamu from January 9–14, 2027. Landing in Nairobi a night early can make the domestic hop less stressful."
+      },
+      {
+        "question": "How do I get from Nairobi to Lamu?",
+        "answer": "Fly Nairobi (JKIA) to Manda Airport (LAU), then take a short boat transfer into Shela. There's a recommended Jambojet round trip on the Flights section."
+      },
+      {
+        "question": "What's included at Forodhani House?",
+        "answer": "The house is fully equipped with everything we need for our stay. There are five staff members including a chef, who will be preparing our meals. Based on my conversations with the owner, the cost per person per day should be around 20 USD a day for groceries for all three meals, and we'll pay the house team for groceries and a tip at the end of our stay. For folks who are staying at Peponi Hotel, breakfast is included in your rate, but you can also come and join us for lunch and dinner at Forodhani House. I'm sure we will also have a few meals at Peponi Hotel or the Majlis. "
+      },
+      {
+        "question": "What should I pack?",
+        "answer": "Linen, sandals, swimsuits, sunscreen, a light cover-up, and a nice outfit for a birthday dinner. Mosquito spray is useful too."
+      },
+      {
+        "question": "Do I need a visa or vaccines?",
+        "answer": "Yes, most folks will need a Kenyan eVisa which can be applied for online in advance. Reach out if you need help with this. In addition, you need a yellow fever vaccination certification to enter and may be asked for it on arrival. "
+      },
+      {
+        "question": "What if the house is full?",
+        "answer": "Once folks have RSVP'd I'll be able to figure out who is in the house vs. hotel. The general vibe is, if you're troubling alone/with no plus one, I'll prioritize you in the house, but of course if there's space in the house at the end of the RSVP period, couples will be able to stay in the house as well. "
+      }
+    ]
+  }
+}

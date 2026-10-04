@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thirty in Lamu | Jan 9–14, 2027</title>
+  <link rel="icon" type="image/png" href="images/IMG_8378%201.png">
+  <script>
+    window.__ASSET_VERSION__ = ['localhost', '127.0.0.1'].includes(location.hostname)
+      ? Date.now()
+      : '20260726';
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = `styles.css?v=${window.__ASSET_VERSION__}`;
+    document.head.appendChild(stylesheet);
+  </script>
+</head>
+<body>
+  <div id="password-gate" class="password-gate" hidden>
+    <form class="gate-card" id="gate-form">
+      <p class="eyebrow">Private invitation</p>
+      <h1>Thirty in Lamu</h1>
+      <p class="muted gate-intro">Enter the guest password to view the birthday site.</p>
+      <label for="gate-password">Password</label>
+      <input id="gate-password" type="password" autocomplete="current-password" />
+      <button class="button primary" type="submit">Enter</button>
+      <p class="fineprint" id="password-hint"></p>
+      <p class="fineprint error" id="gate-error" aria-live="polite"></p>
+    </form>
+  </div>
+
+  <div id="site-shell" hidden>
+    <header class="site-header" id="top">
+      <a class="brand" href="#welcome" aria-label="Thirty in Lamu home">
+        <img class="brand-mark" data-bind="brandIcon" src="images/IMG_8378 1.png" alt="Baby Sheree" />
+      </a>
+      <nav class="nav" aria-label="Main navigation" id="main-nav"></nav>
+      <button class="menu-toggle" aria-label="Open navigation">Menu</button>
+    </header>
+    <main id="app"></main>
+    <footer class="footer">
+      <span id="footer-text">Thirty in Lamu · January 2027</span>
+      <div class="footer-links"><a href="edit.html">Edit</a><a href="#top">Back to top</a></div>
+    </footer>
+  </div>
+
+  <script>
+    const siteScript = document.createElement('script');
+    siteScript.src = `script.js?v=${window.__ASSET_VERSION__}`;
+    document.body.appendChild(siteScript);
+  </script>
+</body>
+</html>

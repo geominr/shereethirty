@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edit · Thirty in Lamu</title>
+  <script>
+    window.__ASSET_VERSION__ = ['localhost', '127.0.0.1'].includes(location.hostname)
+      ? Date.now()
+      : '20260726';
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = `styles.css?v=${window.__ASSET_VERSION__}`;
+    document.head.appendChild(stylesheet);
+  </script>
+</head>
+<body class="edit-page editor-body">
+  <main class="editor-wrap">
+    <section class="editor-hero">
+      <div>
+        <p class="eyebrow">Static site editor</p>
+        <h1>Edit the Lamu site</h1>
+        <p>This page edits the JSON that feeds the site copy, images, links, password, activity cards, and recommended flights. Save to this browser for quick preview, or download a fresh <code>site-data.json</code> and replace the file in the site folder before publishing.</p>
+      </div>
+      <a class="button inline" href="index.html">Preview site</a>
+    </section>
+    <div class="notice">Because this is a static prototype, the editor cannot permanently write files by itself. Use <strong>Save to browser</strong> for local preview and <strong>Download JSON</strong> to export a replacement <code>site-data.json</code>.</div>
+    <div class="editor-actions">
+      <button class="button inline" id="save-browser">Save to browser</button>
+      <button class="button inline" id="download-json">Download JSON</button>
+      <button class="button inline" id="copy-json">Copy JSON</button>
+      <button class="button inline" id="reset-browser">Reset browser edits</button>
+    </div>
+    <div class="editor-grid">
+      <aside class="editor-sidebar" id="editor-tabs"></aside>
+      <section class="editor-panel" id="editor-panel"></section>
+    </div>
+  </main>
+  <script>
+    const siteScript = document.createElement('script');
+    siteScript.src = `script.js?v=${window.__ASSET_VERSION__}`;
+    siteScript.addEventListener('load', () => {
+      const editorScript = document.createElement('script');
+      editorScript.src = `edit.js?v=${window.__ASSET_VERSION__}`;
+      document.body.appendChild(editorScript);
+    });
+    document.body.appendChild(siteScript);
+  </script>
+</body>
+</html>
