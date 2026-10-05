@@ -55,6 +55,13 @@ function requirePassword(data, onUnlock) {
   });
 }
 
+function placeNameHTML(place) {
+  const name = escapeHTML(place.name || '');
+  if (!place.href) return name;
+  const external = place.href.startsWith('http');
+  return `<a class="alternative-name" href="${escapeHTML(place.href)}" ${external ? 'target="_blank" rel="noopener"' : ''}>${name}</a>`;
+}
+
 function buttonHTML(link, fallbackClass = 'inline') {
   const style = link.style || fallbackClass;
   const href = escapeHTML(link.href || '#');
@@ -155,7 +162,7 @@ function renderSite(data) {
         <div class="alternatives-grid">
           ${(h.alternatives.places || []).map(place => `
             <div class="alternative-place">
-              <strong>${escapeHTML(place.name || '')}</strong>
+              <strong>${placeNameHTML(place)}</strong>
               <span>${escapeHTML(place.note || '')}</span>
               <div class="alternative-contacts">
                 ${(place.contacts || []).map(contact => {
@@ -186,7 +193,7 @@ function renderSite(data) {
       </div>
       <div class="faq-list">${faqItems}</div>
     </section>
-    <section class="section rsvp" id="rsvp" aria-label="RSVP"><div class="rsvp-panel reveal"><div class="rsvp-choices">${rsvpChoices}</div></div></section>`;
+    <section class="section rsvp" id="rsvp" aria-labelledby="rsvp-title"><div class="rsvp-panel reveal"><h2 id="rsvp-title">${escapeHTML(r.headline || 'RSVP')}</h2><div class="rsvp-choices">${rsvpChoices}</div></div></section>`;
 
   setupInteractions();
 }

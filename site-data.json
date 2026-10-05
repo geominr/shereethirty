@@ -4,7 +4,7 @@
     "brand": "images/IMG_8378 1.png",
     "brandIcon": "images/IMG_8378 1.png",
     "password": "lamu30",
-    "passwordHint": "Hint: destination + age, lowercase, no space.",
+    "passwordHint": "",
     "footerText": "Sheree's 30th birthday in Lamu · January 2027"
   },
   "nav": [
@@ -36,7 +36,7 @@
   "welcome": {
     "eyebrow": "Sheree's 30th · Lamu Island, Kenya · January 9–14, 2027",
     "headline": "Goodbye, twenties. Hello Lamu!",
-    "lede": "Join me for five slow days in my favourite place in Kenya! We'll enjoy Swahili architecture, dhow sails, late breakfasts, exploration and I can't wait to celebrate with you all!.",
+    "lede": "Hi friends! Join me for five slow days in my favourite place in Kenya! We'll enjoy Swahili architecture, dhow sails, late breakfasts, exploration and water sports! I can't wait to celebrate with you all!",
     "primaryCta": {
       "label": "RSVP",
       "href": "#rsvp"
@@ -62,9 +62,9 @@
     "kicker": "The stay",
     "headline": "Forodhani House",
     "body": [
-      "Stunningly located at the beginning of Shela Beach, 100 meters from the village and Peponi Hotel Terrace, we will enjoy stunning sea-views, dhows sailing right by the house, tiered terraces, lounging areas to take it easy, an airy and spacy main lounge, a garden and a pool.",
+      "Stunningly located at the beginning of Shela Beach, 100 meters from the village and Peponi Hotel Terrace, we will enjoy gorgeous sea-views, dhows sailing right by the house, tiered terraces, lounging areas to take it easy, an airy and spacy main lounge, a garden and a pool.",
       "It's the very spot where decades ago a watch-post stood (Forodhani means watch-post in Kiswahili) controlling the to and fro of boats entering and leaving Lamu Island.",
-      "Forodhani House comes with 5 professional, friendly staff, among them an excellent cook and we will have dinners mainly at this house. Once the house is full, the recommendation is to stay at Peponi Hotel, which is right next door, though airbnb options are also available in Shela. "
+      "Forodhani House comes with 5 professional, friendly staff, among them an excellent cook, and we will have dinners mainly at this house. Once the house is full, the recommendation is to stay at Peponi Hotel, which is right next door, though airbnb options are also available in Shela."
     ],
     "details": [
       {
@@ -119,6 +119,7 @@
         {
           "name": "Peponi Hotel",
           "note": "Next door to Forodhani House",
+          "href": "https://www.peponihotel.com/",
           "contacts": [
             {
               "label": "+254 722 203 082",
@@ -133,6 +134,7 @@
         {
           "name": "Kijani Hotel",
           "note": "Nearby Shela hotel",
+          "href": "https://www.kijani-lamu.com/",
           "contacts": [
             {
               "label": "Book on WhatsApp",
@@ -145,8 +147,8 @@
   },
   "activities": {
     "kicker": "Island rhythm",
-    "headline": "Things we might do, lightly.",
-    "intro": "Lamu is best treated as a mood rather than a checklist: a UNESCO-listed old town, beach time in Shela, sunset sailing, markets, Swahili food, and a lot of doing very little beautifully.",
+    "headline": "Things we might do",
+    "intro": "Lamu old town is a UNESCO world heritage site, and we will definitely do a guided tour one morning. There will be plenty of beach time in Shela, sunset sailing, markets, Swahili food, and a lot of doing very little beautifully.",
     "cards": [
       {
         "category": "Dhow sailing",
@@ -234,6 +236,7 @@
     ]
   },
   "rsvp": {
+    "headline": "RSVP on Partiful",
     "backgroundImage": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=2200&q=80",
     "href": "https://partiful.com/e/B3LqDyCAep8MVjURX4Gc?c=wU1dI4dH",
     "choices": [
@@ -273,7 +276,7 @@
       },
       {
         "question": "What if the house is full?",
-        "answer": "Once folks have RSVP'd I'll be able to figure out who is in the house vs. hotel. The general vibe is, if you're troubling alone/with no plus one, I'll prioritize you in the house, but of course if there's space in the house at the end of the RSVP period, couples will be able to stay in the house as well. "
+        "answer": "Once folks have RSVP'd I'll be able to figure out who is in the house vs. hotel. The general plan is if you are coming alone/with no plus one, I'll prioritize you in the house, but of course if there's space in the house at the end of the RSVP period, I will try my best to have some couples in the house. "
       }
     ]
   }
