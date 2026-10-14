@@ -209,7 +209,7 @@
     "legs": [
       {
         "label": "Departing",
-        "href": "https://flights.jambojet.com/en/fares?combo=0-0&currency=USD&distributor=google&fares=a-128.80-EUR-5393&fee=2.58-EUR&home=LAUNBO202701141135012550120JM8681&issued_at=2026_07_26_15_14_43&mbs_partner=jambojet&out=NBOLAU202701090900010200120JM8684&passenger_ages=25&residency=US&ticketing-partner=google-flights&utm_source=google-flights.us&version=3&sig=NuOAjCalQXQGAekXz07G7GBDHmHgsUQEvN3DHfeU62c&gclid=ADowPOLFKcsOaoEThsTTdHOJp8fbbUsT0luIl-nKrFC4RyGXFwhaN9zajIFwiqHZDysJaGRdfsWpCotbEMO8KgrN81SQJdWkxlv-qqGTACfP-b0PTvDW&gclsrc=gf&offerId=C6GNAH6K&partner=jambojet",
+        "href": "https://www.jambojet.com/en-us/booking/select/?origin1=NBO&destination1=LAU&departure1=2027-01-09&adt1=1&chd1=0&inf1=0&origin2=LAU&destination2=NBO&departure2=2027-02-14&adt2=1&chd2=0&inf2=0&currency=KES",
         "cta": "Book outbound",
         "departTime": "09:00",
         "departDate": "Sat, January 9",
@@ -222,7 +222,7 @@
       },
       {
         "label": "Returning",
-        "href": "https://flights.jambojet.com/en/fares?combo=0-0&currency=USD&distributor=google&fares=a-128.80-EUR-5393&fee=2.58-EUR&home=LAUNBO202701141135012550120JM8681&issued_at=2026_07_26_15_14_43&mbs_partner=jambojet&out=NBOLAU202701090900010200120JM8684&passenger_ages=25&residency=US&ticketing-partner=google-flights&utm_source=google-flights.us&version=3&sig=NuOAjCalQXQGAekXz07G7GBDHmHgsUQEvN3DHfeU62c&gclid=ADowPOLFKcsOaoEThsTTdHOJp8fbbUsT0luIl-nKrFC4RyGXFwhaN9zajIFwiqHZDysJaGRdfsWpCotbEMO8KgrN81SQJdWkxlv-qqGTACfP-b0PTvDW&gclsrc=gf&offerId=C6GNAH6K&partner=jambojet",
+        "href": "https://www.jambojet.com/en-us/booking/select/?origin1=NBO&destination1=LAU&departure1=2027-01-09&adt1=1&chd1=0&inf1=0&origin2=LAU&destination2=NBO&departure2=2027-02-14&adt2=1&chd2=0&inf2=0&currency=KES",
         "cta": "Book return",
         "departTime": "11:35",
         "departDate": "Thu, January 14",
